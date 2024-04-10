@@ -14,7 +14,7 @@ This repository contains a Python tool for downloading videos from YouTube and t
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/video-transcription-tool.git
+    git clone https://github.com/k3smith/video-transcript-tool.git
     ```
 
 2. Navigate to the project directory:
