@@ -74,5 +74,3 @@ python transcript.py
 The script will prompt you whether you'd like to trim the video content or not (Y/N). If you choose 'Y', it will trim the video content to the first 10 minutes plus 20% of the remainder before transcribing. If you choose 'N', it will transcribe the entire video.
 
 The transcribed text will be saved in the 'transcripts' directory under a subdirectory named after the whisper model used for transcription.
-
-## License 
