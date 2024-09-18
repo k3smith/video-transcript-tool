@@ -11,7 +11,7 @@ def transcribe_video(trim):
 
     for file in files:
         file_path = os.path.join(directory, file)
-        audio_file_path = os.path.join(directory + '/audio', file.replace('.mp4', '.mp3'))
+        audio_file_path = os.path.join(directory, file.replace('.mp4', '.mp3'))#+ '/audioS
         if os.path.exists(audio_file_path) :
             print('Found ', audio_file_path, '. No need to transcribe.')
         else :
@@ -38,7 +38,7 @@ def transcribe_video(trim):
     whisper.DecodingOptions.fp16 = False
 
     # Specify the directory path
-    directory = 'videos/audio'
+    directory = 'videos/'#audio'
 
     transcript_directory = 'transcripts/' + whisper_model
 
